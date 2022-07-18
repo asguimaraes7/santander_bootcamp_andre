@@ -1,6 +1,9 @@
 ﻿body {
     background: #00ff90;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+
 }
 #title, .post_title, .subtitle {
     color: darkblue;
@@ -38,11 +41,13 @@ a {
     margin: 0;
     margin-bottom: 15px;
     border-radius: 5px;
+    text-align: justify;
 }
 
 .post_image {
     margin-bottom: 15px;
     border-radius: 15px;
+    width: 100%;
 }
 
 .contact_list {
